@@ -98,7 +98,7 @@ $files = $rootFolder ? scanFiles($rootFolder) : [];
 </head>
 <body>
     <div class="anime-card" style="max-width: 1000px;">
-        <h2 class="anime-title">📁 文件管理</h2>
+        <h2 class="anime-title"> 喵次元网盘 📁 文件管理</h2>
         <div class="layui-btn-group" style="margin: 10px 0;">
             <button class="anime-btn" onclick="location.reload()">刷新列表</button>
             <a href="index.php" class="anime-btn" style="background: #ff8c00;">返回后台首页</a>
