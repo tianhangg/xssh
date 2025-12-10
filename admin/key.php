@@ -47,7 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </head>
 <body>
     <div class="anime-card" style="max-width: 500px;">
-        <h2 class="anime-title">🔑 修改管理密匙</h2>
+        <h2 class="anime-title"> 喵次元网盘 🔑 修改管理密匙</h2>
         <form method="post" class="layui-form">
             <div class="layui-form-item">
                 <label class="layui-form-label"><span style="color: red;">*</span> 原密匙</label>
