@@ -8,6 +8,9 @@ CREATE TABLE `users` (
   `password` varchar(255) NOT NULL,
   `email` varchar(100) DEFAULT NULL,
   `create_time` datetime DEFAULT CURRENT_TIMESTAMP,
+  `code_expire` date NOT NULL,
+  `verify_code` varchar(10) NOT NULL,
+  
   PRIMARY KEY (`id`),
   UNIQUE KEY `username` (`username`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
