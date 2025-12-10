@@ -80,7 +80,7 @@ function getFieldDesc($field) {
 </head>
 <body>
     <div class="anime-card" style="max-width: 800px;">
-        <h2 class="anime-title">⚙️ 网站基本配置</h2>
+        <h2 class="anime-title"> 喵次元网盘 ⚙️ 网站基本配置</h2>
         <form method="post" class="layui-form">
             <div class="layui-form-item">
                 <label class="layui-form-label"><span style="color: red;">*</span> 管理密匙</label>
