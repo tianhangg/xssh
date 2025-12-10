@@ -31,7 +31,7 @@ if (!isset($_SESSION['nekoadmin'])) {
     </head>
     <body>
         <div class="anime-card" style="max-width: 400px;">
-            <h2 class="anime-title">🔒 后台登录</h2>
+            <h2 class="anime-title"> 喵次元网盘 🔒 后台登录</h2>
             <form method="post" class="layui-form">
                 <div class="layui-form-item">
                     <input type="password" name="key" class="anime-input" placeholder="输入管理密匙" required>
