@@ -56,15 +56,15 @@ try {
     // 服务器配置（根据你的邮箱修改）
     $mail->SMTPDebug = SMTP::DEBUG_OFF; // 上线后关闭调试
     $mail->isSMTP();
-    $mail->Host       = 'smtp.qq.com'; // QQ邮箱填这个，163填 smtp.163.com
+    $mail->Host       = 'xxxxxx'; // QQ邮箱填这个，163填 smtp.163.com
     $mail->SMTPAuth   = true;
-    $mail->Username   = 'tianhkeji@qq.com'; // 发送邮件的邮箱
-    $mail->Password   = 'pdianabarzgmdjbd'; // SMTP授权码，不是登录密码
+    $mail->Username   = 'xxxxxx@qq.com'; // 发送邮件的邮箱
+    $mail->Password   = 'xxxxxx'; // SMTP授权码，不是登录密码
     $mail->SMTPSecure = SMTP::ENCRYPTION_SMTPS;
     $mail->Port       = 587; // 端口对应，QQ邮箱465，163邮箱465
 
     // 收件人
-    $mail->setFrom('tianhkeji@qq.com', '喵次元网盘');
+    $mail->setFrom('xxxxxx@qq.com', '喵次元网盘');
     $mail->addAddress($email); // 发送到用户填写的邮箱
 
     // 邮件内容
