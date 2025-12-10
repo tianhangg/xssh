@@ -270,7 +270,7 @@ $fileList = mysqli_query($conn, "SELECT * FROM files WHERE user_id='{$user_id}' 
         <hr style="border:1px dashed #ffb6c1;">
 
         <!-- 文件列表 + 二维码分享 + 上传时间显示 -->
-        <h3 class="anime-title" style="font-size:18px;">📂 我的文件</h3>
+        <h3 class="anime-title" style="font-size:18px;"> 喵次元网盘 📂 我的文件</h3>
         <?php if (mysqli_num_rows($fileList) == 0): ?>
             <p style="text-align:center; color:#999;">暂无上传文件，点击上方按钮开始上传吧~</p>
         <?php else: ?>
